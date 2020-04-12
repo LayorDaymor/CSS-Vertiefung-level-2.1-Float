@@ -1,0 +1,41 @@
+body,html{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+section:nth-child(1){
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    left: 50%;;
+    transform: translateX(-50%);
+    h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    #pic1{
+        height: 22vh;
+        width: 12vw;
+        margin-right:0.5vw ;
+        float: left;
+        clip-path: polygon(62% 3%, 75% 12%, 80% 29%, 82% 44%, 79% 60%, 75% 69%, 100% 84%, 100% 100%, 2% 100%, 10% 89%, 26% 78%, 23% 56%, 18% 33%, 24% 11%, 44% 0);
+        shape-outside:polygon(62% 3%, 75% 12%, 80% 29%, 82% 44%, 79% 60%, 75% 69%, 100% 84%, 100% 100%, 2% 100%, 10% 89%, 26% 78%, 23% 56%, 18% 33%, 24% 11%, 44% 0);
+    }
+
+    h2{
+        text-align: center;
+        font-size: 3rem;
+    }
+    #pic2{
+        margin: 0;
+        height: 22vh;
+        width: 20vw;
+        float: right;
+        clip-path: polygon(100% 72%, 75% 57%, 66% 48%, 71% 35%, 70% 21%, 63% 6%, 46% 0, 33% 9%, 28% 23%, 28% 37%, 33% 49%, 35% 59%, 23% 66%, 15% 84%, 16% 100%, 53% 100%, 100% 100%);        shape-outside:polygon(100% 72%, 75% 57%, 66% 48%, 71% 35%, 70% 21%, 63% 6%, 46% 0, 33% 9%, 28% 23%, 28% 37%, 33% 49%, 35% 59%, 23% 66%, 15% 84%, 16% 100%, 53% 100%, 100% 100%);
+        shape-outside:polygon(100% 72%, 75% 57%, 66% 48%, 71% 35%, 70% 21%, 63% 6%, 46% 0, 33% 9%, 28% 23%, 28% 37%, 33% 49%, 35% 59%, 23% 66%, 15% 84%, 16% 100%, 53% 100%, 100% 100%);        shape-outside:polygon(100% 72%, 75% 57%, 66% 48%, 71% 35%, 70% 21%, 63% 6%, 46% 0, 33% 9%, 28% 23%, 28% 37%, 33% 49%, 35% 59%, 23% 66%, 15% 84%, 16% 100%, 53% 100%, 100% 100%); ;
+        overflow: auto;
+    }
+}
